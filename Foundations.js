@@ -10,19 +10,3 @@ var foundationc = document.getElementbyId('Foundation');
 foundationc.onClick = function Foundy() {
         foundationc.innerhtml= jsonArray['Foundation']} ;
 
-function change_myselect(sel) {
-  const dbParam = JSON.stringify({jsonArray});
-  const xmlhttp = new XMLHttpRequest();
-  xmlhttp.onload = function() {
-    const myObj = JSON.parse(this.responseText);
-    let text = "<p>"
-    for (let x in myObj) {
-      text += myObj[x].name;
-    }
-    text += "</p>"
-    document.getElementById("Marx").innerHTML = text;
-  }
-  xmlhttp.open("POST", "index.html");
-  xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-  xmlhttp.send("x=" + dbParam);
-}
