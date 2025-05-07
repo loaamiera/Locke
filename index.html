@@ -35,7 +35,7 @@ function change_myselect(sel) {
     text += "</p>"
     document.getElementById("demo").innerHTML = text;
   }
-  xmlhttp.open("POST", "Arguments.php");
+  xmlhttp.open("POST", "Foundations.php");
   xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
   xmlhttp.send("x=" + dbParam);
 }
