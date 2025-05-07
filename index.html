@@ -27,7 +27,7 @@ Select an option to see a foundation of Marx'sargument
 </p>
 <script>
 function change_myselect(sel) {
-  const dbParam = JSON.stringify({Foundations.php});
+  const dbParam = JSON.stringify({'Foundations.php'});
   const xmlhttp = new XMLHttpRequest();
   xmlhttp.onload = function() {
     const myObj = JSON.parse(this.responseText);
