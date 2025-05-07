@@ -7,7 +7,7 @@ var jsonArray = """[{"Foundation": "In the earlier epochs of history, we find al
 "End": "Altogether collisions between the classes of the old society further, in many ways, the course of development of the proletariat. The bourgeoisie finds itself involved in a constant battle. At first with the aristocracy; later on, with those portions of the bourgeoisie itself, whose interests have become antagonistic to the progress of industry; at all times, with the bourgeoisie of foreign countries. In all these battles it sees itself compelled to appeal to the proletariat, to ask for its help, and thus, to drag it into the political arena. The bourgeoisie itself, therefore, supplies the proletariat with its own elements of political and general education, [39] in other words, it furnishes the proletariat with weapons for fighting the bourgeoisie."}']
 """.data(using: .utf8)!
 var foundationc = document.getElementbyId('Foundation');
-foundationc.onClick = function(Foundy) {
+foundationc.onClick = function Foundy() {
         foundationc.innerhtml= jsonArray['Foundation']} ;
 
 function change_myselect(sel) {
