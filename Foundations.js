@@ -2,7 +2,7 @@ const option = document.getElementById('Marx');
 const placing = document.getElementById('placement');
 const pic = document.getElementById('picture');
 const link = document.getElementById('link');
-fetch('Foundations.JSON')
+menu = fetch('Foundations.JSON')
 	.then((response) => {    
           		if (!response.ok) {
             		throw new Error(`HTTP error, status = ${response.status}`);
@@ -23,9 +23,8 @@ fetch('Foundations.JSON')
 					              placing.append(myInfo) } ; 
 
 				};})
-			        .catch(error => console.error(
-					placement.append(document.createTextNode(`Error: ${error.message}`));) 
-					} ;
+		.catch(error => console.error(
+					placement.append(document.createTextNode(`Error: ${error.message}`));) ;
 document.addEventListener('DOMContentLoaded', menu);
 
 		
