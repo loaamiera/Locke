@@ -4,7 +4,7 @@ const placing = document.getElementById('placement');
 const myInfo = '' ;
 
 
-document.addEventListener('DOMContentLoaded', () =>
+document.addEventListener('DOMContentLoaded',
 	{info = fetch('Foundations.JSON')
 	.then((response) => {    
           		if (!response.ok) {
