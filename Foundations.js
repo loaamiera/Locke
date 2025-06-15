@@ -20,7 +20,8 @@ async function menu() {
 					              const linkMarx = '<a href = "${optionMarx.Link}" target = "_blank">Click to read</a></p>'  ;
 					              placing.appendChild(pMarx, strongMarx, imageMarx, linknMarx) ;
 			        					}}})
-			        .catch(error => console.error('Error loading the data:', error)) 
+			        .catch(error => console.error(
+					placement.appendChild(document.createTextNode(`Error: ${error.message}`));) 
 					} ;
 document.addEventListener('DOMContentLoaded', menu);
 
