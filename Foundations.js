@@ -29,5 +29,5 @@ document.addEventListener('DOMContentLoaded',
 
 				};}) 
 
-	.catch(error => console.error(
+	.catch((error) => console.error(
 					placement.append(document.createTextNode('Error: ${error.message}'));)););		
