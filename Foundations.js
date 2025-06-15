@@ -19,7 +19,7 @@ const placing = document.getElementById('placement');
 		 				var par = document.createElement("p") ;
             					strong.textContent = info.title  ;
 		 				par.textContent = content ;
-						myInfo.append(strong, placing) ;
+						myInfo.append(strong, par) ;
 						myInfo.append('<img ${info.imageUrl} alt=${info.altText}> </img>') ;
 						myInfo.append('<a href = ${info.Link} target = "_blank"> Click to read. </a>' );
 						optionFinal.innerText = myInfo ;
