@@ -9,8 +9,9 @@ header{
 }
 section, option{
   box-sizing: border-box ;
-  width: 20px ;
+  width: 25px ;
   Height: 5px ;
+  text-align: center ;
 }
 footer{
   text-align: center ;
