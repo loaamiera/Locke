@@ -7,6 +7,15 @@ header{
   margin: auto ;
   text-align: center ;
 }
+footer{
+  text-align: center ;
+  word-spacing: 5px ;
+  margin-top: 10px ;
+  margin-left: 0px ;
+  margin-right: 0px ;
+  background-color: rgb(237, 231, 111) ;
+  color: black ;
+}
 #placement{
   width: 50% ;
   height: 50% ;
