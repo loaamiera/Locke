@@ -24,7 +24,7 @@ menu = fetch('Foundations.JSON')
 
 				};})
 		.catch(error => console.error(
-					placement.append(document.createTextNode(`Error: ${error.message}`));) ;
+					placement.append(document.createTextNode(`Error: ${error.message}`));)) ;
 document.addEventListener('DOMContentLoaded', menu);
 
 		
