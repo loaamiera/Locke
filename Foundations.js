@@ -10,8 +10,7 @@ document.addEventListener('DOMContentLoaded', () =>
           		if (!response.ok) {
             		throw new Error(`HTTP error, status = ${response.status}`);
           		} 
-          		return response.json();
-        					})
+          		return response.json() ;})
          .then((data) => {	
 		 		marxOption.onclick = function marxInfo () {
 		 				var optionFinal = placing.innerhtml
