@@ -16,12 +16,14 @@
         </li>
       </ul>
       
-    <select = "Intro"> 
+    <select id = "Intro"> 
+	    <option value = "Marx" id = "Marx" ></option>
 		    <script>
 					    
 			    // This event listener waits for the DOM (Document Object Model) to fully load before executing the contained code.
 			document.addEventListener('DOMContentLoaded', function() {
-			  
+				
+			const intro = document.querySelector("select");
 			// Fetches JSON data from the provided URL.
 			    fetch('Foundations.js')
           		if (!response.ok) {
@@ -31,10 +33,9 @@
         					})
         		.then((data) => {
 			            // Gets a reference to the element with the id 'content' in the HTML document.
-				for (const item of data.Foundation) {
-			            const intro = document.getElementById('Intro');
+				for (data.Foundation(Marx) {
 			                // Creates a new 'section' element.
-			                const option = document.createElement('option value = ${item.title}');
+			                const option${item.title} = document.createElement('option value = ${item.title}');
 			                // Sets the innerHTML of the section with dynamic data from the current item.
 			                option.onclick = 
 			                    <h2>${item.title}</h2> 
