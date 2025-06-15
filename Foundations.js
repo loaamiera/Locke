@@ -11,7 +11,8 @@ document.addEventListener('DOMContentLoaded',
           		}
           		return response.json();
         					})
-         .then((data) => {	marxOption.onclick = function marxInfo() {
+         .then((data) => {	
+		 		marxOption.onclick = function marxInfo() {
 		 				var optionFinal = placing.innerhtml
 						var optionSelection = info.Marx ;
 		 				var optionTitle = optionSelection.title ;
@@ -29,5 +30,8 @@ document.addEventListener('DOMContentLoaded',
 
 				};}) 
 
-	.catch((error) => console.error(
-					placement.append(document.createTextNode('Error: ${error.message}'));)););		
+	.catch((error) => {
+				console.error(
+					placement.append(document.createTextNode('Error: ${error.message}'));
+						);
+			});		
