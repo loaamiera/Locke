@@ -11,14 +11,15 @@ const placing = document.getElementById('placement');
           		return response.json();
         					})
          .then((data) => {	marxOption.onclick = function marxInfo() {
-		 				optionFinal = placing.innerhtml
-						optionSelection = info.Marx ;
-		 				optionTitle = optionSelection.title ;
-						const content = optionSelection.text ;
-						const strong = document.createElement("strong") ;
-		 				const par = document.createElement("p") ;
+		 				var optionFinal = placing.innerhtml
+						var optionSelection = info.Marx ;
+		 				var optionTitle = optionSelection.title ;
+						var content = optionSelection.text ;
+						var strong = document.createElement("strong") ;
+		 				var par = document.createElement("p") ;
             					strong.textContent = info.title  ;
-						myInfo.append(content, strong) ;
+		 				par.textContent = content ;
+						myInfo.append(strong, placing) ;
 						myInfo.append('<img ${info.imageUrl} alt=${info.altText}> </img>') ;
 						myInfo.append('<a href = ${info.Link} target = "_blank"> Click to read. </a>' );
 						optionFinal.innerText = myInfo ;
