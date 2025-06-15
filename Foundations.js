@@ -1,6 +1,6 @@
 var option = document.getElementById('Marx');
 var placing = document.getElementById('placement');
-var information = function () {
+async function menu() {
 			await fetch('https://loaamiera.github.io/Locke/Foundations.JSON')
 			.then((response) => {    
           		if (!response.ok) {
@@ -22,4 +22,6 @@ var information = function () {
 			        					}}})
 			        .catch(error => console.error('Error loading the data:', error)) 
 					} ;
+document.addEventListener('DOMContentLoaded', menu);
+
 		
