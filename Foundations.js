@@ -11,7 +11,7 @@
         		.then((data) => {
 				for (const info of data.Foundation) {
 					option = document.getElementById('Marx');
-					placing = document.getElementById('Foundation');
+					placing = document.getElementById('placement');
           optionMarx = info.Marx
 			                option.onclick = function wording () {
 					              placing.innerHtml =
