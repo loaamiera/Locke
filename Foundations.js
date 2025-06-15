@@ -36,5 +36,5 @@ document.addEventListener('DOMContentLoaded',
 				const mistake = document.createTextNode(`Error: ${error.message}`);
       				placing.appendChild(mistake);
       				console.error(error);
-    });
+    };)
 });
