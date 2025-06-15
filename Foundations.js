@@ -3,7 +3,7 @@ const marxOption = document.getElementById('Marx');
 const placing = document.getElementById('placement');
 
 
-info = await fetch('Foundations.JSON')
+ const info = fetch('Foundations.JSON')
 	.then((response) => {    
           		if (!response.ok) {
             		throw new Error(`HTTP error, status = ${response.status}`);
