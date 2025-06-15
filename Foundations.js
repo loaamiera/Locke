@@ -1,5 +1,7 @@
 const option = document.getElementById('Marx');
 const placing = document.getElementById('placement');
+const pic = document.getElementById('picture');
+const link = document.getElementById('link');
 async function menu() {
 			await fetch('Foundations.JSON')
 			.then((response) => {    
@@ -11,17 +13,19 @@ async function menu() {
         		.then((data) => {
 				for (const info of data.Foundation) {
           				optionMarx = '${info.Marx}';
+					const content = optionMarx.text ;
+					const strongMarx = document.createElement("strong") ;
+            				strongMarx.textContent = '${optionMarx.title}'  ;
+					const myInfo = new DocumentFragment();
+					myInfo.append(content, strongMarx) ;
+					myInfo.append('<img '${optionMarx.imageUrl}' alt=${optionMarx.altText}> </img>' ) ;
+					myInfo.append('<a href = "${optionMarx.Link}" target = "_blank"> Click to read. </a>' );
 			                option.onclick = function wording () {
-					              const pMarx = document.createElement("p");
-						      const strongMarx = document.createElement("strong");
-            					      strongMarx.innerhtml = '${optionMarx.title}';
-						      const imageMarx = '<img src="${optionMarx.imageUrl}" alt="${optionMarx.altText}">' ;
-						      const textMarx = '${optionMarx.text}' ;
-					              const linkMarx = '<a href = "${optionMarx.Link}" target = "_blank">Click to read</a></p>'  ;
-					              placing.appendChild(pMarx, strongMarx, imageMarx, linknMarx) ;
-			        					}}})
+					              placing.append(myInfo) } ; 
+
+				};}})
 			        .catch(error => console.error(
-					placement.appendChild(document.createTextNode(`Error: ${error.message}`));) 
+					placement.append(document.createTextNode(`Error: ${error.message}`));) 
 					} ;
 document.addEventListener('DOMContentLoaded', menu);
 
