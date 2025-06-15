@@ -2,7 +2,7 @@
 			document.addEventListener('DOMContentLoaded', function() {
 				
 			// Fetches JSON data from the provided URL.
-			    fetch('https://loaamiera.github.io/Locke/Foundations.JSON')
+			    fetch('Foundations.JSON')
           		if (!response.ok) {
             		throw new Error(`HTTP error, status = ${response.status}`);
           		}
