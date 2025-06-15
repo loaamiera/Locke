@@ -1,8 +1,7 @@
 const option = document.getElementById('Intro');
 const marxOption = document.getElementById('Marx');
 const placing = document.getElementById('placement');
-const pic = document.getElementById('picture');
-const link = document.getElementById('link');
+
 
 info = await fetch('Foundations.JSON')
 	.then((response) => {    
