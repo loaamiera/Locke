@@ -19,11 +19,9 @@
     <select id = "Intro"> 
 	    <option value = "Marx" id = "Marx" ></option>
 		    <script>
-					    
 			    // This event listener waits for the DOM (Document Object Model) to fully load before executing the contained code.
 			document.addEventListener('DOMContentLoaded', function() {
 				
-			const intro = document.querySelector("select");
 			// Fetches JSON data from the provided URL.
 			    fetch('https://loaamiera.github.io/Locke/Foundations.js')
           		if (!response.ok) {
@@ -33,18 +31,19 @@
         					})
         		.then((data) => {
 			            // Gets a reference to the element with the id 'content' in the HTML document.
-				for (data.Foundation(Marx) {
+				for (data.Foundation.Marx) {
 			                // Creates a new 'section' element.
-			                const option${item.title} = document.createElement('option value = ${item.title}');
 			                // Sets the innerHTML of the section with dynamic data from the current item.
+					option = document.getElementById('Marx');
+					placing = document.getElementById('Foundation');
 			                option.onclick = 
-			                    <h2>${item.title}</h2> 
+					placing.innerHtml =
+			                    <h2>${Marx.title}</h2> 
 			               <!-- Displays the title of the item -->
-			                    <img src="${item.imageUrl}" alt="${item.altText}" style="width:100%;max-width:300px;">
+			                    <img src="${Marx.imageUrl}" alt="${item.altText}" style="width:100%;max-width:300px;">
 			               <!-- Displays an image with a source and alternative text from the item, with a set style -->
-			                    <p><strong>Altitude: ${item.altitude}</strong></p>
 			               <!-- Displays the altitude of the item -->
-			                    <p>${item.text}  <a href = "${item.Link}" target = "_blank">Read More</a></p>
+			                    <p>${Marx.text}  <a href = "${Marx.Link}" target = "_blank">Read More</a></p>
 			               <!-- Displays text and a 'Read More' link that opens in a new tab -->
 			                ;
 			                // Appends the newly created section to the 'content' div.
