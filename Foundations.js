@@ -35,3 +35,4 @@ document.addEventListener('DOMContentLoaded',
 					placement.append(document.createTextNode('Error: ${error.message}'));
 						);
 			});		
+	) ;
