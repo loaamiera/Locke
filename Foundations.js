@@ -14,9 +14,9 @@ async function menu() {
 			                option.onclick = function wording () {
 					              const pMarx = document.createElement("p");
 						      const strongMarx = document.createElement("strong");
-            					      strongMarx.textContent = ${optionMarx.title};
+            					      strongMarx.textContent = '${optionMarx.title}';
 						      const imageMarx = '<img src="${optionMarx.imageUrl}" alt="${optionMarx.altText}">' ;
-						      const textMarx = ${optionMarx.text} ;
+						      const textMarx = '${optionMarx.text}' ;
 					              const linkMarx = '<a href = "${optionMarx.Link}" target = "_blank">Click to read</a></p>'  ;
 					              placing.appendChild(pMarx, strongMarx, imageMarx, linknMarx) ;
 			        					}}})
