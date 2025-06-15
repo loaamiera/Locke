@@ -36,7 +36,7 @@
 			                // Sets the innerHTML of the section with dynamic data from the current item.
 					option = document.getElementById('Marx');
 					placing = document.getElementById('Foundation');
-			                option.onclick = 
+			                option.onclick = function wording () {
 					placing.innerHtml =
 			                    <h2>${Marx.title}</h2> 
 			               <!-- Displays the title of the item -->
@@ -47,7 +47,7 @@
 			               <!-- Displays text and a 'Read More' link that opens in a new tab -->
 			                ;
 			                // Appends the newly created section to the 'content' div.
-			                intro.appendChild('option');
+			                intro.appendChild('placing'); } ;
 			            });
 			        })
 			        .catch(error => console.error('Error loading the data:', error)); 
