@@ -26,9 +26,9 @@ const placing = document.getElementById('placement');
 			         option.onclick = function wording () {
 					              placing.append(myInfo) } ; 
 
-				};}) ; 
+				};}) 
 
-.catch(error => console.error(
+	.catch(error => console.error(
 					placement.append(document.createTextNode(`Error: ${error.message}`));
 		)) ;
-document.addEventListener('DOMContentLoaded', menu);		
+document.addEventListener('DOMContentLoaded', info);		
