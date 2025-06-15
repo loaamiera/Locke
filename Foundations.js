@@ -1,5 +1,5 @@
-await var option = document.getElementById('Marx');
-await var placing = document.getElementById('placement');
+var option = document.getElementById('Marx');
+var placing = document.getElementById('placement');
 async function menu() {
 			await fetch('Foundations.JSON')
 			.then((response) => {    
