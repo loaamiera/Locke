@@ -1,10 +1,14 @@
 html{
-  background-color: rgb(158, 0, 0) ; }
-#placement{
+  background-color: rgb(158, 0, 0) ;
   display: inline-flex ;
-  flex-direction: row ; 
+  flex-direction: row ; }
+header{
+  color: white ;
+}
+#placement{
   width: 50% ;
   height: 50% ;
   text-align: center ;
   margin: auto ;
-  background-color: rgb(237, 231, 111) ; }
+  background-color: rgb(237, 231, 111) ;
+  color: black ;}
