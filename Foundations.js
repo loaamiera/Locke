@@ -1,7 +1,7 @@
 option = document.getElementById('Marx');
 placing = document.getElementById('placement');
 information = function () {
-			fetch('https://loaamiera.github.io/Locke/Foundations.JSON')
+			await fetch('https://loaamiera.github.io/Locke/Foundations.JSON')
 			.then((response) => {    
           		if (!response.ok) {
             		throw new Error(`HTTP error, status = ${response.status}`);
