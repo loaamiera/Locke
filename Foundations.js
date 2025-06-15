@@ -1,6 +1,6 @@
-option = document.getElementById('Marx');
-placing = document.getElementById('placement');
-information = function () {
+var option = document.getElementById('Marx');
+var placing = document.getElementById('placement');
+var information = function () {
 			await fetch('https://loaamiera.github.io/Locke/Foundations.JSON')
 			.then((response) => {    
           		if (!response.ok) {
@@ -18,7 +18,7 @@ information = function () {
 						      const imageMarx = '<img src="${optionMarx.imageUrl}" alt="${optionMarx.altText}">' ;
 						      const textMarx = ${optionMarx.text} ;
 					              const linkMarx = '<a href = "${optionMarx.Link}" target = "_blank">Click to read</a></p>'  ;
-					              option.appendChild('placing') ;
+					              placing.appendChild(pMarx, strongMarx, imageMarx, linknMarx) ;
 			        					}}})
 			        .catch(error => console.error('Error loading the data:', error)) 
 					} ;
