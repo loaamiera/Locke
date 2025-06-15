@@ -1,6 +1,9 @@
 <html>
   <head>
       <link rel="stylesheet" href="styles.css">
+	<meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" />
   </head>
   <body>
     <main>
@@ -25,14 +28,13 @@
 			        .then(response => response.json())  // Parses the response as JSON.
 			        .then(data => {
 			            // Gets a reference to the element with the id 'content' in the HTML document.
-			            const introOption = document.getElementById('Intro');
-			            // Iterates over each item in the fetched data array.
-			            data.forEach(item => {
+				for (const item of data.Foundation) {
+			            const intro = document.getElementById('Intro');
 			                // Creates a new 'section' element.
 			                const option = document.createElement('option');
 			                // Sets the innerHTML of the section with dynamic data from the current item.
 					option.value = ${item.title}
-			                option.innerHTML = 
+			                option.onclick = 
 			                    <h2>${item.title}</h2> 
 			               <!-- Displays the title of the item -->
 			                    <img src="${item.imageUrl}" alt="${item.altText}" style="width:100%;max-width:300px;">
@@ -43,7 +45,7 @@
 			               <!-- Displays text and a 'Read More' link that opens in a new tab -->
 			                ;
 			                // Appends the newly created section to the 'content' div.
-			                introOption.appendChild(section);
+			                option.appendChild(section);
 			            });
 			        })
 			        .catch(error => console.error('Error loading the data:', error)); 
