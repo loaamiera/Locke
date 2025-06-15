@@ -7,7 +7,7 @@
   </head>
   <body>
     <main>
-      <a href = "Foundations.js"> JS file</a>
+      <a href = "Foundations.JSON"> JSON file</a>
       <ul>
         <li>
           <section id = "Foundation">
@@ -19,41 +19,7 @@
     <select id = "Intro"> 
 	    <option value = "Marx" id = "Marx" > Marx Background </option>
 		<script>
-			    // This event listener waits for the DOM (Document Object Model) to fully load before executing the contained code.
-			document.addEventListener('DOMContentLoaded', function() {
-				
-			// Fetches JSON data from the provided URL.
-			    fetch('https://loaamiera.github.io/Locke/Foundations.js')
-          		if (!response.ok) {
-            		throw new Error(`HTTP error, status = ${response.status}`);
-          		}
-          		return response.json();
-        					})
-        		.then((data) => {
-			            // Gets a reference to the element with the id 'content' in the HTML document.
-				for (data.Foundation.Marx) {
-			                // Creates a new 'section' element.
-			                // Sets the innerHTML of the section with dynamic data from the current item.
-					option = document.getElementById('Marx');
-					placing = document.getElementById('Foundation');
-			                option.onclick = function wording () {
-					placing.innerHtml =
-			                    <h2>${Marx.title}</h2> 
-			               <!-- Displays the title of the item -->
-			                    <img src="${Marx.imageUrl}" alt="${item.altText}" style="width:100%;max-width:300px;">
-			               <!-- Displays an image with a source and alternative text from the item, with a set style -->
-			               <!-- Displays the altitude of the item -->
-			                    <p>${Marx.text}  <a href = "${Marx.Link}" target = "_blank">Read More</a></p>
-			               <!-- Displays text and a 'Read More' link that opens in a new tab -->
-			                ;
-			                // Appends the newly created section to the 'content' div.
-			                intro.appendChild('placing'); } ;
-			            });
-			        })
-			        .catch(error => console.error('Error loading the data:', error)); 
-			        // Catches and logs any errors in the fetch operation.
-		
-				});
+
 		</script>
 
     </select>
