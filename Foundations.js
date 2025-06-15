@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded',
 		 				par.textContent = content ;
 						myInfo.append(strong, par) ;
 						myInfo.append('<img ${info.imageUrl} alt=${info.altText}> </img>') ;
-						myInfo.append('<a href = ${info.Link} target = "_blank"> Click to read. </a>' );
+						myInfo.append('<a href = ${info.Link} target = "_blank"> Click to read. </a>');
 						optionFinal.innerText = myInfo ;
 			         option.onclick = function wording () {
 					              placing.append(myInfo) } ; 
@@ -30,6 +30,4 @@ document.addEventListener('DOMContentLoaded',
 				};}) 
 
 	.catch(error => console.error(
-					placement.append(document.createTextNode(`Error: ${error.message}`));
-		)) ;
-);		
+					placement.append(document.createTextNode(`Error: ${error.message}`));)););		
