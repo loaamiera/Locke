@@ -5,6 +5,7 @@ html{
 header{
   color: white ;
   margin: auto ;
+  text-align: center ;
 }
 #placement{
   width: 50% ;
