@@ -2,15 +2,14 @@ const option = document.getElementById('Marx');
 const placing = document.getElementById('placement');
 const pic = document.getElementById('picture');
 const link = document.getElementById('link');
-async function menu() {
-			await fetch('Foundations.JSON')
-			.then((response) => {    
+fetch('Foundations.JSON')
+	.then((response) => {    
           		if (!response.ok) {
             		throw new Error(`HTTP error, status = ${response.status}`);
           		}
           		return response.json();
         					})
-        		.then((data) => {
+         .then((data) => {
 				for (const info of data.Foundation) {
           				optionMarx = '${info.Marx}';
 					const content = optionMarx.text ;
@@ -18,12 +17,12 @@ async function menu() {
             				strongMarx.textContent = '${optionMarx.title}'  ;
 					const myInfo = new DocumentFragment();
 					myInfo.append(content, strongMarx) ;
-					myInfo.append('<img '${optionMarx.imageUrl}' alt=${optionMarx.altText}> </img>' ) ;
+					myInfo.append('<img "${optionMarx.imageUrl}" alt="${optionMarx.altText}"> </img>') ;
 					myInfo.append('<a href = "${optionMarx.Link}" target = "_blank"> Click to read. </a>' );
 			                option.onclick = function wording () {
 					              placing.append(myInfo) } ; 
 
-				};}})
+				};})
 			        .catch(error => console.error(
 					placement.append(document.createTextNode(`Error: ${error.message}`));) 
 					} ;
