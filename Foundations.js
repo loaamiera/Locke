@@ -3,7 +3,7 @@ const marxOption = document.getElementById('Marx');
 const placing = document.getElementById('placement');
 
 
- const info = fetch('Foundations.JSON')
+document.addEventListener('DOMContentLoaded', const info = fetch('Foundations.JSON')
 	.then((response) => {    
           		if (!response.ok) {
             		throw new Error(`HTTP error, status = ${response.status}`);
@@ -31,4 +31,4 @@ const placing = document.getElementById('placement');
 	.catch(error => console.error(
 					placement.append(document.createTextNode(`Error: ${error.message}`));
 		)) ;
-document.addEventListener('DOMContentLoaded', info);		
+);		
