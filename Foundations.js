@@ -10,7 +10,7 @@ async function menu() {
         					})
         		.then((data) => {
 				for (const info of data.Foundation) {
-          				optionMarx = info[1]
+          				optionMarx = info.'${Marx}';
 			                option.onclick = function wording () {
 					              const pMarx = document.createElement("p");
 						      const strongMarx = document.createElement("strong");
