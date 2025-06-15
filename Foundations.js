@@ -25,9 +25,9 @@ document.addEventListener('DOMContentLoaded',
 						myInfo.append('<a href = ${info.Link} target = "_blank"> Click to read. </a>');
 						optionFinal.innerText = myInfo ;
 			         option.onclick = function wording () {
-					              placing.append(myInfo) } ; 
+					              placing.append(myInfo)} ; 
 
 				};}) 
 
 	.catch(error => console.error(
-					placement.append(document.createTextNode(`Error: ${error.message}`));)););		
+					placement.append(document.createTextNode('Error: ${error.message}'));)););		
