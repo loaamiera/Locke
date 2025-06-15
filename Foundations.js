@@ -1,4 +1,4 @@
-var Foundation = [{"title": "Marx",
+[Foundation {"title": "Marx",
                   "text": "Karl Max was a 19th century philosopher",
                   "imageUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFile%3AKarl_Marx.jpg&psig=AOvVaw3bP5uea-z4ndryikturUzL&ust=1746856467254000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNDqsszZlY0DFQAAAAAdAAAAABAE",
                   "altText": "Image of Karl Marx"
