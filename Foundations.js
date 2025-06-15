@@ -17,14 +17,11 @@ menu = fetch('Foundations.JSON')
             				strongMarx.textContent = '${optionMarx.title}'  ;
 					const myInfo = new DocumentFragment();
 					myInfo.append(content, strongMarx) ;
-					myInfo.append('<img "${optionMarx.imageUrl}" alt="${optionMarx.altText}"> </img>') ;
-					myInfo.append('<a href = "${optionMarx.Link}" target = "_blank"> Click to read. </a>' );
+					myInfo.append('<img ${optionMarx.imageUrl} alt=${optionMarx.altText}> </img>') ;
+					myInfo.append('<a href = ${optionMarx.Link} target = "_blank"> Click to read. </a>' );
 			                option.onclick = function wording () {
 					              placing.append(myInfo) } ; 
 
-				};})
-		.catch(error => console.error(
-					placement.append(document.createTextNode(`Error: ${error.message}`));)) ;
-document.addEventListener('DOMContentLoaded', menu);
+				};}) ; 
 
 		
