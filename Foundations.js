@@ -1,5 +1,5 @@
-			    // This event listener waits for the DOM (Document Object Model) to fully load before executing the contained code.
-			fetch('Foundations.JSON')
+
+			fetch('https://loaamiera.github.io/Locke/Foundations.JSON')
 			.then((response) => {    
           		if (!response.ok) {
             		throw new Error(`HTTP error, status = ${response.status}`);
