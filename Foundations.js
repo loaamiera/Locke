@@ -12,7 +12,7 @@
 				for (const info of data.Foundation) {
 					option = document.getElementById('Marx');
 					placing = document.getElementById('placement');
-          optionMarx = info.Marx
+          				optionMarx = info[1]
 			                option.onclick = function wording () {
 					              placing.innerHtml =
 			                    <h2>${optionMarx.title}</h2> 
