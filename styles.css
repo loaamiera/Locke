@@ -1,9 +1,10 @@
 html{
   background-color: rgb(158, 0, 0) ;
   display: inline-flex ;
-  flex-direction: row ; }
+  flex-direction: column ; }
 header{
   color: white ;
+  margin: auto ;
 }
 #placement{
   width: 50% ;
