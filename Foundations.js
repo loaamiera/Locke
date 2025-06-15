@@ -1,27 +1,34 @@
-const option = document.getElementById('Marx');
+const option = document.getElementById('Intro');
+const marxOption = document.getElementById('Marx');
 const placing = document.getElementById('placement');
 const pic = document.getElementById('picture');
 const link = document.getElementById('link');
-menu = fetch('Foundations.JSON')
+
+info = await fetch('Foundations.JSON')
 	.then((response) => {    
           		if (!response.ok) {
             		throw new Error(`HTTP error, status = ${response.status}`);
           		}
           		return response.json();
         					})
-         .then((data) => {
-				for (const info of data.Foundation) {
-          				optionMarx = '${info.Marx}';
-					const content = optionMarx.text ;
-					const strongMarx = document.createElement("strong") ;
-            				strongMarx.textContent = '${optionMarx.title}'  ;
-					const myInfo = new DocumentFragment();
-					myInfo.append(content, strongMarx) ;
-					myInfo.append('<img ${optionMarx.imageUrl} alt=${optionMarx.altText}> </img>') ;
-					myInfo.append('<a href = ${optionMarx.Link} target = "_blank"> Click to read. </a>' );
-			                option.onclick = function wording () {
+         .then((data) => {	marxOption.onclick = function marxInfo() {
+		 				optionFinal = placing.innerhtml
+						optionSelection = info.Marx ;
+		 				optionTitle = optionSelection.title ;
+						const content = optionSelection.text ;
+						const strong = document.createElement("strong") ;
+		 				const par = document.createElement("p") ;
+            					strong.textContent = info.title  ;
+						myInfo.append(content, strong) ;
+						myInfo.append('<img ${info.imageUrl} alt=${info.altText}> </img>') ;
+						myInfo.append('<a href = ${info.Link} target = "_blank"> Click to read. </a>' );
+						optionFinal.innerText = myInfo ;
+			         option.onclick = function wording () {
 					              placing.append(myInfo) } ; 
 
 				};}) ; 
 
-		
+.catch(error => console.error(
+					placement.append(document.createTextNode(`Error: ${error.message}`));
+		)) ;
+document.addEventListener('DOMContentLoaded', menu);		
