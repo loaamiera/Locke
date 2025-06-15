@@ -33,6 +33,7 @@ footer{
 #placement{
   text-align: center ;
   margin: auto ;
+  min-height: 75% ;
 }
 p{
   width: 50% ;
