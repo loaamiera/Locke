@@ -1,7 +1,7 @@
-var option = document.getElementById('Marx');
-var placing = document.getElementById('placement');
+await var option = document.getElementById('Marx');
+await var placing = document.getElementById('placement');
 async function menu() {
-			await fetch('https://loaamiera.github.io/Locke/Foundations.JSON')
+			await fetch('Foundations.JSON')
 			.then((response) => {    
           		if (!response.ok) {
             		throw new Error(`HTTP error, status = ${response.status}`);
