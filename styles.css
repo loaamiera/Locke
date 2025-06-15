@@ -13,6 +13,10 @@ section, option{
   Height: 5px ;
   text-align: center ;
 }
+li{
+     list-style-type: none ;
+     text-decoration: none  ;
+}
 footer{
   text-align: center ;
   word-spacing: 5px ;
