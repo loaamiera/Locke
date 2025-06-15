@@ -1,8 +1,6 @@
 			    // This event listener waits for the DOM (Document Object Model) to fully load before executing the contained code.
-			document.addEventListener('DOMContentLoaded', function() {
-				
-			// Fetches JSON data from the provided URL.
-			    fetch('Foundations.JSON')
+			fetch('Foundations.JSON')
+			.then((response) => {    
           		if (!response.ok) {
             		throw new Error(`HTTP error, status = ${response.status}`);
           		}
