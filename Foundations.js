@@ -10,6 +10,9 @@ const oppositesOption = document.getElementById("Opposites") ;
 const politicsOption = document.getElementById("Politics") ;
 const videoOption = document.getElementById("Videos") ;
 const engelsOption = document.getElementById("Engels") ;
+const coverageOption = document.getElementById("Coverage") ;
+const baudrillardOption = document.getElementById("Baudrillard") ;
+const elaborationOption = document.getElementById("Elaboration") ;
 const placing = document.getElementById('placement');
 const myInfo = '' ;
 
@@ -27,8 +30,8 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Marx ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-		 				var par = document.createElement("p") ;
-		 				par.textContent = optionSelection.text ;
+
+		 				par = optionSelection.text ;
 						var link = document.createElement("a") ;
 						link.href = optionSelection.Link ;
 						link.target = "_blank" ;
@@ -46,8 +49,8 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Who ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-		 				var par = document.createElement("p") ;
-		 				par.textContent = optionSelection.text ;
+
+		 				par = optionSelection.text ;
 						var link = document.createElement("a") ;
 						link.href = optionSelection.Link ;
 						link.target = "_blank" ;
@@ -65,8 +68,8 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Quotes ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-		 				var par = document.createElement("p") ;
-		 				par.textContent = optionSelection.text ;
+
+		 				par = optionSelection.text ;
 						var link = document.createElement("a") ;
 						link.href = optionSelection.Link ;
 						link.target = "_blank" ;
@@ -84,8 +87,8 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.hegel ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-		 				var par = document.createElement("p") ;
-		 				par.textContent = optionSelection.text ;
+
+		 				par = optionSelection.text ;
 						var link = document.createElement("a") ;
 						link.href = optionSelection.Link ;
 						link.target = "_blank" ;
@@ -103,8 +106,8 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Popular ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-		 				var par = document.createElement("p") ;
-		 				par.textContent = optionSelection.text ;
+
+		 				par = optionSelection.text ;
 						var link = document.createElement("a") ;
 						link.href = optionSelection.Link ;
 						link.target = "_blank" ;
@@ -122,8 +125,8 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Schopenhauer ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-		 				var par = document.createElement("p") ;
-		 				par.textContent = optionSelection.text ;
+
+		 				par = optionSelection.text ;
 						var link = document.createElement("a") ;
 						link.href = optionSelection.Link ;
 						link.target = "_blank" ;
@@ -141,8 +144,8 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Unlikeable ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-		 				var par = document.createElement("p") ;
-		 				par.textContent = optionSelection.text ;
+
+		 				par = optionSelection.text ;
 						var link = document.createElement("a") ;
 						link.href = optionSelection.Link ;
 						link.target = "_blank" ;
@@ -160,8 +163,8 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Opposites ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-		 				var par = document.createElement("p") ;
-		 				par.textContent = optionSelection.text ;
+
+		 				par = optionSelection.text ;
 						var link = document.createElement("a") ;
 						link.href = optionSelection.Link ;
 						link.target = "_blank" ;
@@ -179,8 +182,8 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Politics ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-		 				var par = document.createElement("p") ;
-		 				par.textContent = optionSelection.text ;
+
+		 				par = optionSelection.text ;
 						var link = document.createElement("a") ;
 						link.href = optionSelection.Link ;
 						link.target = "_blank" ;
@@ -198,8 +201,8 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Videos ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-		 				var par = document.createElement("p") ;
-		 				par.textContent = optionSelection.text ;
+
+		 				par = optionSelection.text ;
 						var link = document.createElement("a") ;
 						link.href = optionSelection.Link ;
 						link.target = "_blank" ;
@@ -212,13 +215,68 @@ document.addEventListener('DOMContentLoaded',
 						placing.innerText = myInfo ;
 
 				};
-		 	engelssOption.onclick = function engelsInfo () {
+		 	engelsOption.onclick = function engelsInfo () {
 		 				var optionFinal = placing.innerhtml
-						var optionSelection = engels.Videos ;
+						var optionSelection = info.Engels ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-		 				var par = document.createElement("p") ;
-		 				par.textContent = optionSelection.text ;
+
+		 				par = optionSelection.text ;
+						var link = document.createElement("a") ;
+						link.href = optionSelection.Link ;
+						link.target = "_blank" ;
+						link.textContent = 'Click to read' ;
+						pic.alt = optionSelection.altText ;
+						var pic = document.createElement("img") ;
+						pic.src = optionSelection.imageUrl ;
+						pic.alt = optionSelection.altText ;
+						myInfo.append(strong, par, pic, link) ;
+						placing.innerText = myInfo ;
+
+				};
+		 	coverageOption.onclick = function coverageInfo () {
+		 				var optionFinal = placing.innerhtml
+						var optionSelection = info.Coverage ;
+						var strong = document.createElement("strong") ;
+						strong.textContent = optionSelection.title ;
+
+		 				par = optionSelection.text ;
+						var link = document.createElement("a") ;
+						link.href = optionSelection.Link ;
+						link.target = "_blank" ;
+						link.textContent = 'Click to read' ;
+						pic.alt = optionSelection.altText ;
+						var pic = document.createElement("img") ;
+						pic.src = optionSelection.imageUrl ;
+						pic.alt = optionSelection.altText ;
+						myInfo.append(strong, par, pic, link) ;
+						placing.innerText = myInfo ;
+
+				};
+		 	baudrillardOption.onclick = function baudrillardInfo () {
+		 				var optionFinal = placing.innerhtml
+						var optionSelection = info.Baudrillard ;
+						var strong = document.createElement("strong") ;
+						strong.textContent = optionSelection.title ;
+		 				par = optionSelection.text ;
+						var link = document.createElement("a") ;
+						link.href = optionSelection.Link ;
+						link.target = "_blank" ;
+						link.textContent = 'Click to read' ;
+						pic.alt = optionSelection.altText ;
+						var pic = document.createElement("img") ;
+						pic.src = optionSelection.imageUrl ;
+						pic.alt = optionSelection.altText ;
+						myInfo.append(strong, par, pic, link) ;
+						placing.innerText = myInfo ;
+
+				};
+		 	elaborationOption.onclick = function elaborationInfo () {
+		 				var optionFinal = placing.innerhtml
+						var optionSelection = info.Elaboration ;
+						var strong = document.createElement("strong") ;
+						strong.textContent = optionSelection.title ;
+		 				par = optionSelection.text ;
 						var link = document.createElement("a") ;
 						link.href = optionSelection.Link ;
 						link.target = "_blank" ;
