@@ -33,7 +33,6 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Marx ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-
 		 				par = optionSelection.text ;
 						var link = document.createElement("a") ;
 						link.href = optionSelection.Link ;
@@ -52,7 +51,6 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Who ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-
 		 				par = optionSelection.text ;
 						var link = document.createElement("a") ;
 						link.href = optionSelection.Link ;
@@ -71,7 +69,6 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Quotes ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-
 		 				par = optionSelection.text ;
 						var link = document.createElement("a") ;
 						link.href = optionSelection.Link ;
@@ -90,7 +87,6 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.hegel ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-
 		 				par = optionSelection.text ;
 						var link = document.createElement("a") ;
 						link.href = optionSelection.Link ;
@@ -109,7 +105,6 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Popular ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-
 		 				par = optionSelection.text ;
 						var link = document.createElement("a") ;
 						link.href = optionSelection.Link ;
@@ -128,7 +123,6 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Schopenhauer ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-
 		 				par = optionSelection.text ;
 						var link = document.createElement("a") ;
 						link.href = optionSelection.Link ;
@@ -147,7 +141,6 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Unlikeable ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-
 		 				par = optionSelection.text ;
 						var link = document.createElement("a") ;
 						link.href = optionSelection.Link ;
@@ -166,7 +159,6 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Opposites ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-
 		 				par = optionSelection.text ;
 						var link = document.createElement("a") ;
 						link.href = optionSelection.Link ;
@@ -185,7 +177,6 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Politics ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-
 		 				par = optionSelection.text ;
 						var link = document.createElement("a") ;
 						link.href = optionSelection.Link ;
@@ -204,7 +195,6 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Videos ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-
 		 				par = optionSelection.text ;
 						var link = document.createElement("a") ;
 						link.href = optionSelection.Link ;
@@ -223,7 +213,6 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Engels ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-
 		 				par = optionSelection.text ;
 						var link = document.createElement("a") ;
 						link.href = optionSelection.Link ;
@@ -242,7 +231,6 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Coverage ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-
 		 				par = optionSelection.text ;
 						var link = document.createElement("a") ;
 						link.href = optionSelection.Link ;
