@@ -13,6 +13,10 @@ const engelsOption = document.getElementById("Engels") ;
 const coverageOption = document.getElementById("Coverage") ;
 const baudrillardOption = document.getElementById("Baudrillard") ;
 const elaborationOption = document.getElementById("Elaboration") ;
+const foundationOption = document.getElementById("Foundation") ;
+const revolutionOption = document.getElementById("Revolution") ;
+const crisisOption = document.getElementById("Crisis") ;
+const upsetOption = document.getElementById("Upset") ;
 const placing = document.getElementById('placement');
 const myInfo = '' ;
 
@@ -274,6 +278,78 @@ document.addEventListener('DOMContentLoaded',
 		 	elaborationOption.onclick = function elaborationInfo () {
 		 				var optionFinal = placing.innerhtml
 						var optionSelection = info.Elaboration ;
+						var strong = document.createElement("strong") ;
+						strong.textContent = optionSelection.title ;
+		 				par = optionSelection.text ;
+						var link = document.createElement("a") ;
+						link.href = optionSelection.Link ;
+						link.target = "_blank" ;
+						link.textContent = 'Click to read' ;
+						pic.alt = optionSelection.altText ;
+						var pic = document.createElement("img") ;
+						pic.src = optionSelection.imageUrl ;
+						pic.alt = optionSelection.altText ;
+						myInfo.append(strong, par, pic, link) ;
+						placing.innerText = myInfo ;
+
+				};
+		 	foundationOption.onclick = function foundationInfo () {
+		 				var optionFinal = placing.innerhtml
+						var optionSelection = info.Foundation ;
+						var strong = document.createElement("strong") ;
+						strong.textContent = optionSelection.title ;
+		 				par = optionSelection.text ;
+						var link = document.createElement("a") ;
+						link.href = optionSelection.Link ;
+						link.target = "_blank" ;
+						link.textContent = 'Click to read' ;
+						pic.alt = optionSelection.altText ;
+						var pic = document.createElement("img") ;
+						pic.src = optionSelection.imageUrl ;
+						pic.alt = optionSelection.altText ;
+						myInfo.append(strong, par, pic, link) ;
+						placing.innerText = myInfo ;
+
+				};
+		 	revolutionOption.onclick = function revolutionInfo () {
+		 				var optionFinal = placing.innerhtml
+						var optionSelection = info.Revolution ;
+						var strong = document.createElement("strong") ;
+						strong.textContent = optionSelection.title ;
+		 				par = optionSelection.text ;
+						var link = document.createElement("a") ;
+						link.href = optionSelection.Link ;
+						link.target = "_blank" ;
+						link.textContent = 'Click to read' ;
+						pic.alt = optionSelection.altText ;
+						var pic = document.createElement("img") ;
+						pic.src = optionSelection.imageUrl ;
+						pic.alt = optionSelection.altText ;
+						myInfo.append(strong, par, pic, link) ;
+						placing.innerText = myInfo ;
+
+				};
+		 	crisisOption.onclick = function crisisInfo () {
+		 				var optionFinal = placing.innerhtml
+						var optionSelection = info.Crisis ;
+						var strong = document.createElement("strong") ;
+						strong.textContent = optionSelection.title ;
+		 				par = optionSelection.text ;
+						var link = document.createElement("a") ;
+						link.href = optionSelection.Link ;
+						link.target = "_blank" ;
+						link.textContent = 'Click to read' ;
+						pic.alt = optionSelection.altText ;
+						var pic = document.createElement("img") ;
+						pic.src = optionSelection.imageUrl ;
+						pic.alt = optionSelection.altText ;
+						myInfo.append(strong, par, pic, link) ;
+						placing.innerText = myInfo ;
+
+				};
+		 	upsetOption.onclick = function crisisInfo () {
+		 				var optionFinal = placing.innerhtml
+						var optionSelection = info.Crisis ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
 		 				par = optionSelection.text ;
