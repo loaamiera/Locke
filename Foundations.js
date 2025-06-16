@@ -410,7 +410,7 @@ document.addEventListener('DOMContentLoaded',
 
 	.catch((error) => {
 				const mistake = document.createTextNode(`Error: ${error.message}`);
-      				placing.appendChild(mistake);
+      				placing.innerText = mistake ;
       				console.error(error);
     })
 );
