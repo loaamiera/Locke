@@ -77,6 +77,63 @@ document.addEventListener('DOMContentLoaded',
 						placing.innerText = myInfo ;
 
 				};
+		 	hegelOption.onclick = function hegelInfo () {
+		 				var optionFinal = placing.innerhtml
+						var optionSelection = info.hegel ;
+						var strong = document.createElement("strong") ;
+						strong.textContent = optionSelection.title ;
+		 				var par = document.createElement("p") ;
+		 				par.textContent = optionSelection.text ;
+						var link = document.createElement("a") ;
+						link.href = optionSelection.Link ;
+						link.target = "_blank" ;
+						link.textContent = 'Click to read' ;
+						pic.alt = optionSelection.altText ;
+						var pic = document.createElement("img") ;
+						pic.src = optionSelection.imageUrl ;
+						pic.alt = optionSelection.altText ;
+						myInfo.append(strong, par, pic, link) ;
+						placing.innerText = myInfo ;
+
+				};
+		 	exampleOption.onclick = function exampleInfo () {
+		 				var optionFinal = placing.innerhtml
+						var optionSelection = info.Popular ;
+						var strong = document.createElement("strong") ;
+						strong.textContent = optionSelection.title ;
+		 				var par = document.createElement("p") ;
+		 				par.textContent = optionSelection.text ;
+						var link = document.createElement("a") ;
+						link.href = optionSelection.Link ;
+						link.target = "_blank" ;
+						link.textContent = 'Click to read' ;
+						pic.alt = optionSelection.altText ;
+						var pic = document.createElement("img") ;
+						pic.src = optionSelection.imageUrl ;
+						pic.alt = optionSelection.altText ;
+						myInfo.append(strong, par, pic, link) ;
+						placing.innerText = myInfo ;
+
+				};
+		 	schopenhauerOption.onclick = function exampleInfo () {
+		 				var optionFinal = placing.innerhtml
+						var optionSelection = info.Schopenhauer ;
+						var strong = document.createElement("strong") ;
+						strong.textContent = optionSelection.title ;
+		 				var par = document.createElement("p") ;
+		 				par.textContent = optionSelection.text ;
+						var link = document.createElement("a") ;
+						link.href = optionSelection.Link ;
+						link.target = "_blank" ;
+						link.textContent = 'Click to read' ;
+						pic.alt = optionSelection.altText ;
+						var pic = document.createElement("img") ;
+						pic.src = optionSelection.imageUrl ;
+						pic.alt = optionSelection.altText ;
+						myInfo.append(strong, par, pic, link) ;
+						placing.innerText = myInfo ;
+
+				};
 	 }) 
 
 	.catch((error) => {
