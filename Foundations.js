@@ -30,7 +30,8 @@ document.addEventListener('DOMContentLoaded',
 						myInfo.append(strong, par, pic, link) ;
 						placing.innerText = myInfo ;
 
-				};}) 
+				};
+	 }) 
 
 	.catch((error) => {
 				const mistake = document.createTextNode(`Error: ${error.message}`);
