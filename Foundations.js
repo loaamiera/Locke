@@ -13,7 +13,7 @@ const myInfo = '' ;
 
 
 document.addEventListener('DOMContentLoaded',
-	{info = fetch('Foundations.JSON')
+	info = fetch('Foundations.JSON')
 	.then((response) => {    
           		if (!response.ok) {
             		throw new Error(`HTTP error, status = ${response.status}`);
@@ -84,4 +84,4 @@ document.addEventListener('DOMContentLoaded',
       				placing.appendChild(mistake);
       				console.error(error);
     })
-});
+);
