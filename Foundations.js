@@ -8,6 +8,8 @@ const schopenhauerOption = document.getElementById("Schopenhauer") ;
 const haterOption = document.getElementById("Unlikeable") ;
 const oppositesOption = document.getElementById("Opposites") ;
 const politicsOption = document.getElementById("Politics") ;
+const videoOption = document.getElementById("Videos") ;
+const engelsOption = document.getElementById("Engels") ;
 const placing = document.getElementById('placement');
 const myInfo = '' ;
 
@@ -172,9 +174,47 @@ document.addEventListener('DOMContentLoaded',
 						placing.innerText = myInfo ;
 
 				};	
-		 	politicssOption.onclick = function politicsInfo () {
+		 	politicsOption.onclick = function politicsInfo () {
 		 				var optionFinal = placing.innerhtml
 						var optionSelection = info.Politics ;
+						var strong = document.createElement("strong") ;
+						strong.textContent = optionSelection.title ;
+		 				var par = document.createElement("p") ;
+		 				par.textContent = optionSelection.text ;
+						var link = document.createElement("a") ;
+						link.href = optionSelection.Link ;
+						link.target = "_blank" ;
+						link.textContent = 'Click to read' ;
+						pic.alt = optionSelection.altText ;
+						var pic = document.createElement("img") ;
+						pic.src = optionSelection.imageUrl ;
+						pic.alt = optionSelection.altText ;
+						myInfo.append(strong, par, pic, link) ;
+						placing.innerText = myInfo ;
+
+				};
+		 	videosOption.onclick = function videoInfo () {
+		 				var optionFinal = placing.innerhtml
+						var optionSelection = info.Videos ;
+						var strong = document.createElement("strong") ;
+						strong.textContent = optionSelection.title ;
+		 				var par = document.createElement("p") ;
+		 				par.textContent = optionSelection.text ;
+						var link = document.createElement("a") ;
+						link.href = optionSelection.Link ;
+						link.target = "_blank" ;
+						link.textContent = 'Click to read' ;
+						pic.alt = optionSelection.altText ;
+						var pic = document.createElement("img") ;
+						pic.src = optionSelection.imageUrl ;
+						pic.alt = optionSelection.altText ;
+						myInfo.append(strong, par, pic, link) ;
+						placing.innerText = myInfo ;
+
+				};
+		 	engelssOption.onclick = function engelsInfo () {
+		 				var optionFinal = placing.innerhtml
+						var optionSelection = engels.Videos ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
 		 				var par = document.createElement("p") ;
