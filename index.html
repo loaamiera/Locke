@@ -14,7 +14,7 @@
     <main>
 	<select> 
 	    <option value = "Foundation" id = "Foundation"> Manifesto Foundation  </option>
-	    <option value = "Marx" id = "Marx" > Marx Background </option>
+	    <option value = "Marx" id = "Marx" onClick = function marxInfo () > Marx Background </option>
 	    <option value = "Who" id = "Who" > Marx Philosophy </option>
 	    <option value = "Quotes" id = "Quotes" > Karl Marx Quotes </option>
 	    <option value = "Hegel" id = "Hegel" > Hegel Background </option>
@@ -48,6 +48,21 @@
 	</footer>
 </div>
 <script src = "Foundations.js"  type="text/javascript">
+		 		marxOption.onClick = function marxInfo () {
+		 				var optionFinal = placing.innerHTML
+						var optionSelection = info.Marx ;				
+						var Strong = optionSelection.title ;
+		 				var par = optionSelection.text ;
+						var link = document.createElement("a") ;
+						href.value = optionSelection.Link ;
+				  		var target = link.createAttribute('target') ;
+						target.value = "_blank" ;
+						link.textContent = 'Click to read' ;
+				  		var pic = document.createElement("img") ;
+						alt.value = optionSelection.altText ;
+						src.value = optionSelection.imageUrl ;
+						myInfo.append(strong, par, pic, link) ;
+						optionFinal = myInfo ;
 </script>
 <script src = "Foundation.JSON"  type="JSON">
 </script>
