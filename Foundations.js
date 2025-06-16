@@ -1,4 +1,3 @@
-const option = document.getElementById('Intro');
 const marxOption = document.getElementById('Marx');
 const philosophyOption = document.getElementById("Who") ;
 const quotesOption = document.getElementById("Quotes") ;
