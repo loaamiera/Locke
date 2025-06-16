@@ -42,7 +42,8 @@ p{
   height: 50% ;
   background-color: rgb(237, 231, 111) ;
   color: black ; 
-  padding: 25px ;}
+  padding: 15px ;
+  margin: 25px ;}
 
 #Foundation{
   color: red ; }
