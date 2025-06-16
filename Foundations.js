@@ -217,7 +217,7 @@ document.addEventListener('DOMContentLoaded',
 						placing.innerText = myInfo ;
 
 				};
-		 	videosOption.onclick = function videoInfo () {
+		 	videoOption.onclick = function videoInfo () {
 		 				var optionFinal = placing.innerhtml
 						var optionSelection = info.Videos ;
 						var strong = document.createElement("strong") ;
