@@ -42,7 +42,6 @@ marxOption.onClick = function marxInfo () {
 philosophyOption.onClick = function philInfo () {
 		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.Who ;
-						
 						var Strong = optionSelection.title() ;
 		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
