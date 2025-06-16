@@ -31,8 +31,8 @@ document.addEventListener('DOMContentLoaded',
 		 		marxOption.onClick = function marxInfo () {
 		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.Marx ;
-						var strong = document.createElement("strong") ;
-						strong.textContent = optionSelection.title ;
+						
+						var Strong = optionSelection.title ;
 		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
@@ -46,14 +46,14 @@ document.addEventListener('DOMContentLoaded',
 						var src = pic.createAttribute("src") ;
 						src.value = optionSelection.imageUrl ;
 						myInfo.append(strong, par, pic, link) ;
-						placing  = myInfo ;
+						optionFinal = myInfo ;
 
 				};
 			  philosophyOption.onClick = function philInfo () {
 		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.Who ;
-						var strong = document.createElement("strong") ;
-						strong.textContent = optionSelection.title ;
+						
+						var Strong = optionSelection.title ;
 		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
@@ -62,14 +62,14 @@ document.addEventListener('DOMContentLoaded',
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
 						myInfo.append(strong, par, pic, link) ;
-						placing  = myInfo ;
+						optionFinal = myInfo ;
 
 				};
 		 	quotesOption.onClick = function quoteInfo () {
 		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.Quotes ;
-						var strong = document.createElement("strong") ;
-						strong.textContent = optionSelection.title ;
+						
+						var Strong = optionSelection.title ;
 		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
@@ -83,14 +83,14 @@ document.addEventListener('DOMContentLoaded',
 						var src = pic.createAttribute("src") ;
 						src.value = optionSelection.imageUrl ;
 						myInfo.append(strong, par, pic, link) ;
-						placing  = myInfo ;
+						optionFinal = myInfo ;
 
 				};
 		 	hegelOption.onClick = function hegelInfo () {
 		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.hegel ;
-						var strong = document.createElement("strong") ;
-						strong.textContent = optionSelection.title ;
+						
+						var Strong = optionSelection.title ;
 		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
@@ -104,14 +104,14 @@ document.addEventListener('DOMContentLoaded',
 						var src = pic.createAttribute("src") ;
 						src.value = optionSelection.imageUrl ;
 						myInfo.append(strong, par, pic, link) ;
-						placing  = myInfo ;
+						optionFinal = myInfo ;
 
 				};
 		 	exampleOption.onClick = function exampleInfo () {
 		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.Popular ;
-						var strong = document.createElement("strong") ;
-						strong.textContent = optionSelection.title ;
+						
+						var Strong = optionSelection.title ;
 		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
@@ -125,14 +125,14 @@ document.addEventListener('DOMContentLoaded',
 						var src = pic.createAttribute("src") ;
 						src.value = optionSelection.imageUrl ;
 						myInfo.append(strong, par, pic, link) ;
-						placing  = myInfo ;
+						optionFinal = myInfo ;
 
 				};
 		 	schopenhauerOption.onClick = function schopenhauerInfo () {
 		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.Schopenhauer ;
-						var strong = document.createElement("strong") ;
-						strong.textContent = optionSelection.title ;
+						
+						var Strong = optionSelection.title ;
 		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
@@ -146,14 +146,14 @@ document.addEventListener('DOMContentLoaded',
 						var src = pic.createAttribute("src") ;
 						src.value = optionSelection.imageUrl ;
 						myInfo.append(strong, par, pic, link) ;
-						placing  = myInfo ;
+						optionFinal = myInfo ;
 
 				};
 		 	haterOption.onClick = function haterInfo () {
 		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.Unlikeable ;
-						var strong = document.createElement("strong") ;
-						strong.textContent = optionSelection.title ;
+						
+						var Strong = optionSelection.title ;
 		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
@@ -162,14 +162,14 @@ document.addEventListener('DOMContentLoaded',
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
 						myInfo.append(strong, par, pic, link) ;
-						placing  = myInfo ;
+						optionFinal = myInfo ;
 
 				};
 		 	oppositesOption.onClick = function oppositesInfo () {
 		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.Opposites ;
-						var strong = document.createElement("strong") ;
-						strong.textContent = optionSelection.title ;
+						
+						var Strong = optionSelection.title ;
 		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
@@ -179,14 +179,14 @@ document.addEventListener('DOMContentLoaded',
 						link.textContent = 'Click to read' ;
 						src.value = optionSelection.imageUrl ;
 						myInfo.append(strong, par, pic, link) ;
-						placing  = myInfo ;
+						optionFinal = myInfo ;
 
 				};	
 		 	politicsOption.onClick = function politicsInfo () {
 		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.Politics ;
-						var strong = document.createElement("strong") ;
-						strong.textContent = optionSelection.title ;
+						
+						var Strong = optionSelection.title ;
 		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
@@ -195,14 +195,14 @@ document.addEventListener('DOMContentLoaded',
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
 						myInfo.append(strong, par, pic, link) ;
-						placing  = myInfo ;
+						optionFinal = myInfo ;
 
 				};
 		 	videoOption.onClick = function videoInfo () {
 		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.Videos ;
-						var strong = document.createElement("strong") ;
-						strong.textContent = optionSelection.title ;
+						
+						var Strong = optionSelection.title ;
 		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
@@ -211,14 +211,14 @@ document.addEventListener('DOMContentLoaded',
 						target.value = "_blank" ;
 						link.textContent = 'Click to watch' ;
 						myInfo.append(strong, par, pic, link) ;
-						placing  = myInfo ;
+						optionFinal = myInfo ;
 
 				};
 		 	engelsOption.onClick = function engelsInfo () {
 		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.Engels ;
-						var strong = document.createElement("strong") ;
-						strong.textContent = optionSelection.title ;
+						
+						var Strong = optionSelection.title ;
 		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
@@ -232,14 +232,14 @@ document.addEventListener('DOMContentLoaded',
 						var src = pic.createAttribute("src") ;
 						src.value = optionSelection.imageUrl ;
 						myInfo.append(strong, par, pic, link) ;
-						placing  = myInfo ;
+						optionFinal = myInfo ;
 
 				};
 		 	coverageOption.onClick = function coverageInfo () {
 		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.Coverage ;
-						var strong = document.createElement("strong") ;
-						strong.textContent = optionSelection.title ;
+						
+						var Strong = optionSelection.title ;
 		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
@@ -248,14 +248,14 @@ document.addEventListener('DOMContentLoaded',
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
 						myInfo.append(strong, par, pic, link) ;
-						placing  = myInfo ;
+						optionFinal = myInfo ;
 
 				};
 		 	baudrillardOption.onClick = function baudrillardInfo () {
 		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.Baudrillard ;
-						var strong = document.createElement("strong") ;
-						strong.textContent = optionSelection.title ;
+						
+						var Strong = optionSelection.title ;
 		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
@@ -269,14 +269,14 @@ document.addEventListener('DOMContentLoaded',
 						var src = pic.createAttribute("src") ;
 						src.value = optionSelection.imageUrl ;
 						myInfo.append(strong, par, pic, link) ;
-						placing  = myInfo ;
+						optionFinal = myInfo ;
 
 				};
 		 	elaborationOption.onClick = function elaborationInfo () {
 		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.Elaboration ;
-						var strong = document.createElement("strong") ;
-						strong.textContent = optionSelection.title ;
+						
+						var Strong = optionSelection.title ;
 		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
@@ -290,14 +290,14 @@ document.addEventListener('DOMContentLoaded',
 						var src = pic.createAttribute("src") ;
 						src.value = optionSelection.imageUrl ;
 						myInfo.append(strong, par, pic, link) ;
-						placing  = myInfo ;
+						optionFinal = myInfo ;
 
 				};
 		 	foundationOption.onClick = function foundationInfo () {
 		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.Foundation ;
-						var strong = document.createElement("strong") ;
-						strong.textContent = optionSelection.title ;
+						
+						var Strong = optionSelection.title ;
 		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
@@ -306,14 +306,14 @@ document.addEventListener('DOMContentLoaded',
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
 						myInfo.append(strong, par, pic, link) ;
-						placing  = myInfo ;
+						optionFinal = myInfo ;
 
 				};
 		 	revolutionOption.onClick = function revolutionInfo () {
 		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.Revolution ;
-						var strong = document.createElement("strong") ;
-						strong.textContent = optionSelection.title ;
+						
+						var Strong = optionSelection.title ;
 		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
@@ -322,14 +322,14 @@ document.addEventListener('DOMContentLoaded',
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
 						myInfo.append(strong, par, pic, link) ;
-						placing  = myInfo ;
+						optionFinal = myInfo ;
 
 				};
 		 	crisisOption.onClick = function crisisInfo () {
 		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.Crisis ;
-						var strong = document.createElement("strong") ;
-						strong.textContent = optionSelection.title ;
+						
+						var Strong = optionSelection.title ;
 		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
@@ -338,14 +338,14 @@ document.addEventListener('DOMContentLoaded',
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
 						myInfo.append(strong, par, pic, link) ;
-						placing  = myInfo ;
+						optionFinal = myInfo ;
 
 				};
 		 	upsetOption.onClick = function crisisInfo () {
 		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.Crisis ;
-						var strong = document.createElement("strong") ;
-						strong.textContent = optionSelection.title ;
+						
+						var Strong = optionSelection.title ;
 		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
@@ -354,7 +354,7 @@ document.addEventListener('DOMContentLoaded',
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
 						myInfo.append(strong, par, pic, link) ;
-						placing  = myInfo ;
+						optionFinal = myInfo ;
 
 				};
 	 }) 
