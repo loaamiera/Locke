@@ -48,8 +48,11 @@
 	</footer>
 </div>
 <script src = "Foundations.js"  type="text/javascript">
-		 		marxOption.onClick = function marxInfo () {
-		 				var optionFinal = placing.innerHTML
+		function marxInfo () {
+				info = fetch('Foundations.JSON')
+				.then((response) => { eturn response.json() ;})
+         			.then((data) => {	
+		 				var optionFinal = p.innerHTML
 						var optionSelection = info.Marx ;				
 						var Strong = optionSelection.title ;
 		 				var par = optionSelection.text ;
