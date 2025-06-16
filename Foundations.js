@@ -17,7 +17,7 @@ const revolutionOption = document.getElementById("Revolution") ;
 const crisisOption = document.getElementById("Crisis") ;
 const upsetOption = document.getElementById("Upset") ;
 const placing = document.getElementById('placement');
-const myInfo = '' ;
+const myInfo = document.createElement('div') ;
 
 
 document.addEventListener('DOMContentLoaded',
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded',
           		return response.json() ;})
          .then((data) => {	
 		 		marxOption.onclick = function marxInfo () {
-		 				var optionFinal = placing.innerhtml
+		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.Marx ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded',
 
 				};
 			  philosophyOption.onclick = function philInfo () {
-		 				var optionFinal = placing.innerhtml
+		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.Who ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded',
 
 				};
 		 	quotesOption.onclick = function quoteInfo () {
-		 				var optionFinal = placing.innerhtml
+		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.Quotes ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded',
 
 				};
 		 	hegelOption.onclick = function hegelInfo () {
-		 				var optionFinal = placing.innerhtml
+		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.hegel ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded',
 
 				};
 		 	exampleOption.onclick = function exampleInfo () {
-		 				var optionFinal = placing.innerhtml
+		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.Popular ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded',
 
 				};
 		 	schopenhauerOption.onclick = function schopenhauerInfo () {
-		 				var optionFinal = placing.innerhtml
+		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.Schopenhauer ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
@@ -150,7 +150,7 @@ document.addEventListener('DOMContentLoaded',
 
 				};
 		 	haterOption.onclick = function haterInfo () {
-		 				var optionFinal = placing.innerhtml
+		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.Unlikeable ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
@@ -166,7 +166,7 @@ document.addEventListener('DOMContentLoaded',
 
 				};
 		 	oppositesOption.onclick = function oppositesInfo () {
-		 				var optionFinal = placing.innerhtml
+		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.Opposites ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
@@ -183,7 +183,7 @@ document.addEventListener('DOMContentLoaded',
 
 				};	
 		 	politicsOption.onclick = function politicsInfo () {
-		 				var optionFinal = placing.innerhtml
+		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.Politics ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
@@ -199,7 +199,7 @@ document.addEventListener('DOMContentLoaded',
 
 				};
 		 	videoOption.onclick = function videoInfo () {
-		 				var optionFinal = placing.innerhtml
+		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.Videos ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
@@ -215,7 +215,7 @@ document.addEventListener('DOMContentLoaded',
 
 				};
 		 	engelsOption.onclick = function engelsInfo () {
-		 				var optionFinal = placing.innerhtml
+		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.Engels ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
@@ -236,7 +236,7 @@ document.addEventListener('DOMContentLoaded',
 
 				};
 		 	coverageOption.onclick = function coverageInfo () {
-		 				var optionFinal = placing.innerhtml
+		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.Coverage ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
@@ -252,7 +252,7 @@ document.addEventListener('DOMContentLoaded',
 
 				};
 		 	baudrillardOption.onclick = function baudrillardInfo () {
-		 				var optionFinal = placing.innerhtml
+		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.Baudrillard ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
@@ -273,7 +273,7 @@ document.addEventListener('DOMContentLoaded',
 
 				};
 		 	elaborationOption.onclick = function elaborationInfo () {
-		 				var optionFinal = placing.innerhtml
+		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.Elaboration ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
@@ -294,7 +294,7 @@ document.addEventListener('DOMContentLoaded',
 
 				};
 		 	foundationOption.onclick = function foundationInfo () {
-		 				var optionFinal = placing.innerhtml
+		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.Foundation ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
@@ -310,7 +310,7 @@ document.addEventListener('DOMContentLoaded',
 
 				};
 		 	revolutionOption.onclick = function revolutionInfo () {
-		 				var optionFinal = placing.innerhtml
+		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.Revolution ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
@@ -326,7 +326,7 @@ document.addEventListener('DOMContentLoaded',
 
 				};
 		 	crisisOption.onclick = function crisisInfo () {
-		 				var optionFinal = placing.innerhtml
+		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.Crisis ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
@@ -342,7 +342,7 @@ document.addEventListener('DOMContentLoaded',
 
 				};
 		 	upsetOption.onclick = function crisisInfo () {
-		 				var optionFinal = placing.innerhtml
+		 				var optionFinal = placing.innerHTML
 						var optionSelection = info.Crisis ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
