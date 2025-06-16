@@ -61,11 +61,6 @@ document.addEventListener('DOMContentLoaded',
 				  		var target = link.Attribute('target') ;
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
-				  		var pic = document.createElement("img") ;
-				  		var alt = pic.createElement('alt') ;
-						alt.value = optionSelection.altText ;
-						var src = pic.createAttribute("src") ;
-						src.value = optionSelection.imageUrl ;
 						myInfo.append(strong, par, pic, link) ;
 						placing.innerText = myInfo ;
 
@@ -166,11 +161,6 @@ document.addEventListener('DOMContentLoaded',
 				  		var target = link.Attribute('target') ;
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
-				  		var pic = document.createElement("img") ;
-				  		var alt = pic.createElement('alt') ;
-						alt.value = optionSelection.altText ;
-						var src = pic.createAttribute("src") ;
-						src.value = optionSelection.imageUrl ;
 						myInfo.append(strong, par, pic, link) ;
 						placing.innerText = myInfo ;
 
@@ -187,10 +177,6 @@ document.addEventListener('DOMContentLoaded',
 				  		var target = link.Attribute('target') ;
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
-				  		var pic = document.createElement("img") ;
-				  		var alt = pic.createElement('alt') ;
-						alt.value = optionSelection.altText ;
-						var src = pic.createAttribute("src") ;
 						src.value = optionSelection.imageUrl ;
 						myInfo.append(strong, par, pic, link) ;
 						placing.innerText = myInfo ;
@@ -208,11 +194,6 @@ document.addEventListener('DOMContentLoaded',
 				  		var target = link.Attribute('target') ;
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
-				  		var pic = document.createElement("img") ;
-				  		var alt = pic.createElement('alt') ;
-						alt.value = optionSelection.altText ;
-						var src = pic.createAttribute("src") ;
-						src.value = optionSelection.imageUrl ;
 						myInfo.append(strong, par, pic, link) ;
 						placing.innerText = myInfo ;
 
@@ -266,11 +247,6 @@ document.addEventListener('DOMContentLoaded',
 				  		var target = link.Attribute('target') ;
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
-				  		var pic = document.createElement("img") ;
-				  		var alt = pic.createElement('alt') ;
-						alt.value = optionSelection.altText ;
-						var src = pic.createAttribute("src") ;
-						src.value = optionSelection.imageUrl ;
 						myInfo.append(strong, par, pic, link) ;
 						placing.innerText = myInfo ;
 
