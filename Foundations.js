@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Marx ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-		 				par = optionSelection.text ;
+		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
 						href.value = optionSelection.Link ;
@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Who ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-		 				par = optionSelection.text ;
+		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
 						href.value = optionSelection.Link ;
@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Quotes ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-		 				par = optionSelection.text ;
+		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
 						href.value = optionSelection.Link ;
@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.hegel ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-		 				par = optionSelection.text ;
+		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
 						href.value = optionSelection.Link ;
@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Popular ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-		 				par = optionSelection.text ;
+		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
 						href.value = optionSelection.Link ;
@@ -133,7 +133,7 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Schopenhauer ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-		 				par = optionSelection.text ;
+		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
 						href.value = optionSelection.Link ;
@@ -154,7 +154,7 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Unlikeable ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-		 				par = optionSelection.text ;
+		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
 						href.value = optionSelection.Link ;
@@ -170,7 +170,7 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Opposites ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-		 				par = optionSelection.text ;
+		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
 						href.value = optionSelection.Link ;
@@ -187,7 +187,7 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Politics ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-		 				par = optionSelection.text ;
+		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
 						href.value = optionSelection.Link ;
@@ -203,7 +203,7 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Videos ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-		 				par = optionSelection.text ;
+		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
 						href.value = optionSelection.Link ;
@@ -219,7 +219,7 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Engels ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-		 				par = optionSelection.text ;
+		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
 						href.value = optionSelection.Link ;
@@ -240,7 +240,7 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Coverage ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-		 				par = optionSelection.text ;
+		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
 						href.value = optionSelection.Link ;
@@ -256,7 +256,7 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Baudrillard ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-		 				par = optionSelection.text ;
+		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
 						href.value = optionSelection.Link ;
@@ -277,7 +277,7 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Elaboration ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-		 				par = optionSelection.text ;
+		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
 						href.value = optionSelection.Link ;
@@ -298,7 +298,7 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Foundation ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-		 				par = optionSelection.text ;
+		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
 						href.value = optionSelection.Link ;
@@ -314,7 +314,7 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Revolution ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-		 				par = optionSelection.text ;
+		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
 						href.value = optionSelection.Link ;
@@ -330,7 +330,7 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Crisis ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-		 				par = optionSelection.text ;
+		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
 						href.value = optionSelection.Link ;
@@ -346,7 +346,7 @@ document.addEventListener('DOMContentLoaded',
 						var optionSelection = info.Crisis ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
-		 				par = optionSelection.text ;
+		 				var par = optionSelection.text ;
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
 						href.value = optionSelection.Link ;
