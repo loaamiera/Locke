@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded',
 						var src = pic.createAttribute("src") ;
 						src.value = optionSelection.imageUrl ;
 						myInfo.append(strong, par, pic, link) ;
-						placing.innerText = myInfo ;
+						placing.innerHTML = myInfo ;
 
 				};
 			  philosophyOption.onClick = function philInfo () {
@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded',
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
 						myInfo.append(strong, par, pic, link) ;
-						placing.innerText = myInfo ;
+						placing.innerHTML = myInfo ;
 
 				};
 		 	quotesOption.onClick = function quoteInfo () {
@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded',
 						var src = pic.createAttribute("src") ;
 						src.value = optionSelection.imageUrl ;
 						myInfo.append(strong, par, pic, link) ;
-						placing.innerText = myInfo ;
+						placing.innerHTML = myInfo ;
 
 				};
 		 	hegelOption.onClick = function hegelInfo () {
@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded',
 						var src = pic.createAttribute("src") ;
 						src.value = optionSelection.imageUrl ;
 						myInfo.append(strong, par, pic, link) ;
-						placing.innerText = myInfo ;
+						placing.innerHTML = myInfo ;
 
 				};
 		 	exampleOption.onClick = function exampleInfo () {
@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded',
 						var src = pic.createAttribute("src") ;
 						src.value = optionSelection.imageUrl ;
 						myInfo.append(strong, par, pic, link) ;
-						placing.innerText = myInfo ;
+						placing.innerHTML = myInfo ;
 
 				};
 		 	schopenhauerOption.onClick = function schopenhauerInfo () {
@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded',
 						var src = pic.createAttribute("src") ;
 						src.value = optionSelection.imageUrl ;
 						myInfo.append(strong, par, pic, link) ;
-						placing.innerText = myInfo ;
+						placing.innerHTML = myInfo ;
 
 				};
 		 	haterOption.onClick = function haterInfo () {
@@ -162,7 +162,7 @@ document.addEventListener('DOMContentLoaded',
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
 						myInfo.append(strong, par, pic, link) ;
-						placing.innerText = myInfo ;
+						placing.innerHTML = myInfo ;
 
 				};
 		 	oppositesOption.onClick = function oppositesInfo () {
@@ -179,7 +179,7 @@ document.addEventListener('DOMContentLoaded',
 						link.textContent = 'Click to read' ;
 						src.value = optionSelection.imageUrl ;
 						myInfo.append(strong, par, pic, link) ;
-						placing.innerText = myInfo ;
+						placing.innerHTML = myInfo ;
 
 				};	
 		 	politicsOption.onClick = function politicsInfo () {
@@ -195,7 +195,7 @@ document.addEventListener('DOMContentLoaded',
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
 						myInfo.append(strong, par, pic, link) ;
-						placing.innerText = myInfo ;
+						placing.innerHTML = myInfo ;
 
 				};
 		 	videoOption.onClick = function videoInfo () {
@@ -211,7 +211,7 @@ document.addEventListener('DOMContentLoaded',
 						target.value = "_blank" ;
 						link.textContent = 'Click to watch' ;
 						myInfo.append(strong, par, pic, link) ;
-						placing.innerText = myInfo ;
+						placing.innerHTML = myInfo ;
 
 				};
 		 	engelsOption.onClick = function engelsInfo () {
@@ -232,7 +232,7 @@ document.addEventListener('DOMContentLoaded',
 						var src = pic.createAttribute("src") ;
 						src.value = optionSelection.imageUrl ;
 						myInfo.append(strong, par, pic, link) ;
-						placing.innerText = myInfo ;
+						placing.innerHTML = myInfo ;
 
 				};
 		 	coverageOption.onClick = function coverageInfo () {
@@ -248,7 +248,7 @@ document.addEventListener('DOMContentLoaded',
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
 						myInfo.append(strong, par, pic, link) ;
-						placing.innerText = myInfo ;
+						placing.innerHTML = myInfo ;
 
 				};
 		 	baudrillardOption.onClick = function baudrillardInfo () {
@@ -269,7 +269,7 @@ document.addEventListener('DOMContentLoaded',
 						var src = pic.createAttribute("src") ;
 						src.value = optionSelection.imageUrl ;
 						myInfo.append(strong, par, pic, link) ;
-						placing.innerText = myInfo ;
+						placing.innerHTML = myInfo ;
 
 				};
 		 	elaborationOption.onClick = function elaborationInfo () {
@@ -290,7 +290,7 @@ document.addEventListener('DOMContentLoaded',
 						var src = pic.createAttribute("src") ;
 						src.value = optionSelection.imageUrl ;
 						myInfo.append(strong, par, pic, link) ;
-						placing.innerText = myInfo ;
+						placing.innerHTML = myInfo ;
 
 				};
 		 	foundationOption.onClick = function foundationInfo () {
@@ -306,7 +306,7 @@ document.addEventListener('DOMContentLoaded',
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
 						myInfo.append(strong, par, pic, link) ;
-						placing.innerText = myInfo ;
+						placing.innerHTML = myInfo ;
 
 				};
 		 	revolutionOption.onClick = function revolutionInfo () {
@@ -322,7 +322,7 @@ document.addEventListener('DOMContentLoaded',
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
 						myInfo.append(strong, par, pic, link) ;
-						placing.innerText = myInfo ;
+						placing.innerHTML = myInfo ;
 
 				};
 		 	crisisOption.onClick = function crisisInfo () {
@@ -338,7 +338,7 @@ document.addEventListener('DOMContentLoaded',
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
 						myInfo.append(strong, par, pic, link) ;
-						placing.innerText = myInfo ;
+						placing.innerHTML = myInfo ;
 
 				};
 		 	upsetOption.onClick = function crisisInfo () {
@@ -354,14 +354,14 @@ document.addEventListener('DOMContentLoaded',
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
 						myInfo.append(strong, par, pic, link) ;
-						placing.innerText = myInfo ;
+						placing.innerHTML = myInfo ;
 
 				};
 	 }) 
 
 	.catch((error) => {
 				const mistake = document.createTextNode(`Error: ${error.message}`);
-      				placing.innerText = mistake ;
+      				placing.innerHTML = mistake ;
       				console.error(error);
     })
 );
