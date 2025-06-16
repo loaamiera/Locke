@@ -115,9 +115,66 @@ document.addEventListener('DOMContentLoaded',
 						placing.innerText = myInfo ;
 
 				};
-		 	schopenhauerOption.onclick = function exampleInfo () {
+		 	schopenhauerOption.onclick = function schopenhauerInfo () {
 		 				var optionFinal = placing.innerhtml
 						var optionSelection = info.Schopenhauer ;
+						var strong = document.createElement("strong") ;
+						strong.textContent = optionSelection.title ;
+		 				var par = document.createElement("p") ;
+		 				par.textContent = optionSelection.text ;
+						var link = document.createElement("a") ;
+						link.href = optionSelection.Link ;
+						link.target = "_blank" ;
+						link.textContent = 'Click to read' ;
+						pic.alt = optionSelection.altText ;
+						var pic = document.createElement("img") ;
+						pic.src = optionSelection.imageUrl ;
+						pic.alt = optionSelection.altText ;
+						myInfo.append(strong, par, pic, link) ;
+						placing.innerText = myInfo ;
+
+				};
+		 	haterOption.onclick = function haterInfo () {
+		 				var optionFinal = placing.innerhtml
+						var optionSelection = info.Unlikeable ;
+						var strong = document.createElement("strong") ;
+						strong.textContent = optionSelection.title ;
+		 				var par = document.createElement("p") ;
+		 				par.textContent = optionSelection.text ;
+						var link = document.createElement("a") ;
+						link.href = optionSelection.Link ;
+						link.target = "_blank" ;
+						link.textContent = 'Click to read' ;
+						pic.alt = optionSelection.altText ;
+						var pic = document.createElement("img") ;
+						pic.src = optionSelection.imageUrl ;
+						pic.alt = optionSelection.altText ;
+						myInfo.append(strong, par, pic, link) ;
+						placing.innerText = myInfo ;
+
+				};
+		 	oppositesOption.onclick = function oppositesInfo () {
+		 				var optionFinal = placing.innerhtml
+						var optionSelection = info.Opposites ;
+						var strong = document.createElement("strong") ;
+						strong.textContent = optionSelection.title ;
+		 				var par = document.createElement("p") ;
+		 				par.textContent = optionSelection.text ;
+						var link = document.createElement("a") ;
+						link.href = optionSelection.Link ;
+						link.target = "_blank" ;
+						link.textContent = 'Click to read' ;
+						pic.alt = optionSelection.altText ;
+						var pic = document.createElement("img") ;
+						pic.src = optionSelection.imageUrl ;
+						pic.alt = optionSelection.altText ;
+						myInfo.append(strong, par, pic, link) ;
+						placing.innerText = myInfo ;
+
+				};	
+		 	politicssOption.onclick = function politicsInfo () {
+		 				var optionFinal = placing.innerhtml
+						var optionSelection = info.Politics ;
 						var strong = document.createElement("strong") ;
 						strong.textContent = optionSelection.title ;
 		 				var par = document.createElement("p") ;
