@@ -7,7 +7,7 @@ header{
   margin: auto ;
   text-align: center ;
 }
-section, option{
+option{
   box-sizing: border-box ;
   width: 25px ;
   Height: 5px ;
