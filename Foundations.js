@@ -20,8 +20,7 @@ const placing = document.getElementById('placement');
 const myInfo = document.createElement('div') ;
 
 
-document.addEventListener('DOMContentLoaded',
-	info = fetch('Foundations.JSON')
+info = fetch('Foundations.JSON')
 	.then((response) => {    
           		if (!response.ok) {
             		throw new Error(`HTTP error, status = ${response.status}`);
@@ -323,5 +322,4 @@ document.addEventListener('DOMContentLoaded',
 				const mistake = document.createTextNode(`Error: ${error.message}`);
       				placing.innerHTML = mistake ;
       				console.error(error);
-    })
-);
+    });
