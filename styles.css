@@ -7,12 +7,6 @@ header{
   margin: auto ;
   text-align: center ;
 }
-option{
-  box-sizing: border-box ;
-  width: 25px ;
-  Height: 5px ;
-  text-align: center ;
-}
 li{
      list-style-type: none ;
 }
@@ -44,46 +38,54 @@ p{
   color: black ; 
   padding: 15px ;
   margin: 25px ;}
-
-#Foundation{
-  color: red ; }
-#Marx{
-  color: orange; }
-#Who{
-  color: yellow ;} 
-#Quotes{
-  color: blue ;} 
-#Hegel{
-  color: green ;} 
-#Popular{
-  color: purple ;} 
-#Schopenhauer{
-  color: red ; }
-#Unlikeable{
-  color: orange ; }
-#Opposites{
-  color: yellow ;} 
-#Politics{
-  color: blue ;} 
-#Videos{
-  color: green ;} 
-#Engels{
-  color: purple ;} 
-#Coverage{
-  color: red ; }
-#Baudrillard{
-  color: orange ; }
-#Elaboration{
-  color: yellow ;}
-#Foundation{
-  color: blue ;} 
-#Revolution{
-  color: green ;} 
-#Crisis"{
-  color: purple ;} 
-#Upset{
-  color: red ; }
-#Enemy{
-  color: blue ; }
-#Enemy{
-  color: green ; }
+select{
+  margin: auto ;
+  text-align: center ;
+  #Foundation{
+    color: red ; }
+  #Marx{
+    color: orange; }
+  #Who{
+    color: yellow ;} 
+  #Quotes{
+    color: blue ;} 
+  #Hegel{
+    color: green ;} 
+  #Popular{
+    color: purple ;} 
+  #Schopenhauer{
+    color: red ; }
+  #Unlikeable{
+    color: orange ; }
+  #Opposites{
+    color: yellow ;} 
+  #Politics{
+    color: blue ;} 
+  #Videos{
+    color: green ;} 
+  #Engels{
+    color: purple ;} 
+  #Coverage{
+    color: red ; }
+  #Baudrillard{
+    color: orange ; }
+  #Elaboration{
+    color: yellow ;}
+  #Foundation{
+    color: blue ;} 
+  #Revolution{
+    color: green ;} 
+  #Crisis"{
+    color: purple ;} 
+  #Upset{
+    color: red ; }
+  #Enemy{
+    color: blue ; }
+  #Enemy{
+    color: green ; }
+  option{
+  box-sizing: border-box ;
+  width: 25px ;
+  Height: 5px ;
+  text-align: center ;
+}}
