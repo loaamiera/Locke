@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded',
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
 						href.value = optionSelection.Link ;
-				  		var target = link.Attribute('target') ;
+				  		var target = link.createAttribute('target') ;
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
 				  		var pic = document.createElement("img") ;
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded',
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
 						href.value = optionSelection.Link ;
-				  		var target = link.Attribute('target') ;
+				  		var target = link.createAttribute('target') ;
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
 						myInfo.append(strong, par, pic, link) ;
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded',
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
 						href.value = optionSelection.Link ;
-				  		var target = link.Attribute('target') ;
+				  		var target = link.createAttribute('target') ;
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
 				  		var pic = document.createElement("img") ;
@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded',
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
 						href.value = optionSelection.Link ;
-				  		var target = link.Attribute('target') ;
+				  		var target = link.createAttribute('target') ;
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
 				  		var pic = document.createElement("img") ;
@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded',
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
 						href.value = optionSelection.Link ;
-				  		var target = link.Attribute('target') ;
+				  		var target = link.createAttribute('target') ;
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
 				  		var pic = document.createElement("img") ;
@@ -137,7 +137,7 @@ document.addEventListener('DOMContentLoaded',
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
 						href.value = optionSelection.Link ;
-				  		var target = link.Attribute('target') ;
+				  		var target = link.createAttribute('target') ;
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
 				  		var pic = document.createElement("img") ;
@@ -158,7 +158,7 @@ document.addEventListener('DOMContentLoaded',
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
 						href.value = optionSelection.Link ;
-				  		var target = link.Attribute('target') ;
+				  		var target = link.createAttribute('target') ;
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
 						myInfo.append(strong, par, pic, link) ;
@@ -174,7 +174,7 @@ document.addEventListener('DOMContentLoaded',
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
 						href.value = optionSelection.Link ;
-				  		var target = link.Attribute('target') ;
+				  		var target = link.createAttribute('target') ;
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
 						src.value = optionSelection.imageUrl ;
@@ -191,7 +191,7 @@ document.addEventListener('DOMContentLoaded',
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
 						href.value = optionSelection.Link ;
-				  		var target = link.Attribute('target') ;
+				  		var target = link.createAttribute('target') ;
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
 						myInfo.append(strong, par, pic, link) ;
@@ -207,7 +207,7 @@ document.addEventListener('DOMContentLoaded',
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
 						href.value = optionSelection.Link ;
-				  		var target = link.Attribute('target') ;
+				  		var target = link.createAttribute('target') ;
 						target.value = "_blank" ;
 						link.textContent = 'Click to watch' ;
 						myInfo.append(strong, par, pic, link) ;
@@ -223,7 +223,7 @@ document.addEventListener('DOMContentLoaded',
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
 						href.value = optionSelection.Link ;
-				  		var target = link.Attribute('target') ;
+				  		var target = link.createAttribute('target') ;
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
 				  		var pic = document.createElement("img") ;
@@ -244,7 +244,7 @@ document.addEventListener('DOMContentLoaded',
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
 						href.value = optionSelection.Link ;
-				  		var target = link.Attribute('target') ;
+				  		var target = link.createAttribute('target') ;
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
 						myInfo.append(strong, par, pic, link) ;
@@ -260,7 +260,7 @@ document.addEventListener('DOMContentLoaded',
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
 						href.value = optionSelection.Link ;
-				  		var target = link.Attribute('target') ;
+				  		var target = link.createAttribute('target') ;
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
 				  		var pic = document.createElement("img") ;
@@ -281,7 +281,7 @@ document.addEventListener('DOMContentLoaded',
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
 						href.value = optionSelection.Link ;
-				  		var target = link.Attribute('target') ;
+				  		var target = link.createAttribute('target') ;
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
 				  		var pic = document.createElement("img") ;
@@ -302,7 +302,7 @@ document.addEventListener('DOMContentLoaded',
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
 						href.value = optionSelection.Link ;
-				  		var target = link.Attribute('target') ;
+				  		var target = link.createAttribute('target') ;
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
 						myInfo.append(strong, par, pic, link) ;
@@ -318,7 +318,7 @@ document.addEventListener('DOMContentLoaded',
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
 						href.value = optionSelection.Link ;
-				  		var target = link.Attribute('target') ;
+				  		var target = link.createAttribute('target') ;
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
 						myInfo.append(strong, par, pic, link) ;
@@ -334,7 +334,7 @@ document.addEventListener('DOMContentLoaded',
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
 						href.value = optionSelection.Link ;
-				  		var target = link.Attribute('target') ;
+				  		var target = link.createAttribute('target') ;
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
 						myInfo.append(strong, par, pic, link) ;
@@ -350,7 +350,7 @@ document.addEventListener('DOMContentLoaded',
 						var link = document.createElement("a") ;
 				  		var href = link.createAttribute('href') ;
 						href.value = optionSelection.Link ;
-				  		var target = link.Attribute('target') ;
+				  		var target = link.createAttribute('target') ;
 						target.value = "_blank" ;
 						link.textContent = 'Click to read' ;
 						myInfo.append(strong, par, pic, link) ;
