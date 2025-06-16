@@ -42,8 +42,7 @@ p{
   height: 50% ;
   background-color: rgb(237, 231, 111) ;
   color: black ; 
-  text-align: center ;
-  margin: auto ;}
+  padding: 25px ;}
 
 #Marx{
   color: red ; }
